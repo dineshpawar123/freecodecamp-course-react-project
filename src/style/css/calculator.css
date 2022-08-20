@@ -1,0 +1,144 @@
+/* @media only screen and (min-device-width: 481px) {
+    .outerContainer {
+       margin: 1% 10%; 
+       background-color: #37474f;
+    }
+  }
+  @media only screen and (min-device-width: 1000px) {
+    .outerContainer {
+       margin: 1% 30%; 
+       background-color: #37474f;
+    }
+  }
+
+  @media only screen and (min-device-width: 1300px) {
+    .outerContainer {
+       margin: 1% 60%; 
+       background-color: #37474f;
+    }
+  }
+  @media only screen and (min-device-width: 710px) {
+    .outerContainer {
+       margin: 1% 30%; 
+       background-color:#37474f;
+    }
+  } */
+
+
+  /* @media only screen and (max-device-width: 300px) {
+    .outerContainer {
+       margin: 0% 10%; 
+       width: 100%;
+       background-color: red;
+    }
+  } */
+
+  /* @media only screen and (max-device-width: 480px) {
+    .outerContainer {
+        margin: 5% 30%; 
+        width: 100%;
+        background-color: rgb(24, 10, 10);
+     }
+
+ } */
+
+.outerContainer{
+background-color:#37474f;
+ margin: 5% 25%; 
+padding :30px; 
+border-radius: 20px;
+text-align: center;
+box-shadow: 30px 30px 15px rgb(187, 201, 207);
+/* background-color: rgb(24, 10, 10); */
+
+}
+
+.displayContainer{
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #EBECF0;
+    border-radius: 20px ;
+    text-align: right;
+}
+
+ #display1{
+    /* background-color: rgb(230, 227, 230); */
+    text-align: right;
+    padding-right:20px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#expression{
+    /* background-color:rgb(230, 227, 230); */
+    text-align: right;
+    padding-right:20px;
+    padding-top: 5px;
+    height: 40px;
+    font-variant-numeric: tabular-nums;
+    font-size: 18px;
+}
+
+.buttonContainer{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:#37474f;
+    column-gap: 10px; 
+    row-gap: 15px;
+    padding:10px;
+}
+
+#clear {
+    grid-column: 1 / span 2;
+    text-align: center;
+    background-color: rgb(247, 50, 16);
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+  }
+
+#zero{
+    grid-column: 1 / span 2;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+    
+} 
+
+
+#equals {
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    text-align: center;
+    background-color: yellow;
+    padding: 10px;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 30px;
+  }
+
+  .button{
+      background-color: white;
+      padding: 15px;
+      color:black;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 10px;
+      font-size: 20px;
+      box-shadow: 10px 10px 5px rgb(9, 10, 10);
+      /* #dum-machine:hover{ */
+        
+      /* } */
+  }
+
+  .button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(248, 245, 245, 0.952);
+    transform: scale(0.9); 
+    /* Lowering the shadow */
+}

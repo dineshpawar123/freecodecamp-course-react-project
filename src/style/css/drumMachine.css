@@ -1,0 +1,208 @@
+#drum-machine{
+  border: 12px ;
+  display: grid;
+  padding: 10px;
+  border-radius: 15px;
+  margin:5% 5%;
+}
+
+@keyframes example1 {
+  0%   {background-color:rgb(232, 238, 180); left:0px; top:0px;}
+  25%  {background-color:rgb(155, 231, 245); left:100px; top:0px;}
+  50%  {background-color:rgb(144, 144, 223); left:0px; top:30px;}
+}
+
+#drum-machine > div{
+/* background-color: rgba(238, 109, 174, 0.747); */
+/* background-image: url("../images/rainbow.gif"); */
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    gap: 20px;
+    row-gap: 10px;
+    padding: 30px;
+    background-color: rgba(243, 1, 1, 0.747);
+    background-image: url("../images/sky1.jpg");
+}
+
+.drum-pad {
+    background-color: white;
+    padding: 80px 40px;
+    font-size: 30px; 
+    text-align: center;
+    border-radius: 5px;
+    color:black;
+    box-shadow: 10px 10px 5px rgb(10, 10, 10);
+    border:none;
+    height:80px;
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;  
+}
+
+  button:active {
+    transform: scale(0.98);
+    background-image: url("../images/rainbow.gif"); 
+    box-shadow: 3px 2px 22px 1px rgba(236, 238, 231, 0.849);
+    color:white;
+    transform: scale(0.9); 
+  }
+
+  .grid-container-rightside{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 20px;
+      padding: 20px;
+      background-image: url("../images/sky2.jpg");
+      color:white;
+      font-size: 20px;
+      height:70px
+  }
+
+  .grid-container-rightside > div{
+      text-align: center;
+  }
+
+  #display2{
+    text-align: center;
+    color:rgb(253, 253, 253);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arial Narrow Bold';
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #f32144;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px  #f32144;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 10%;
+  }
+
+  .slidecontainer {
+    padding-top: 30px;
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+  /* 
+@media only screen and (max-device-width: 480px) {
+  #drum-machine {
+      margin-left:5%; 
+      margin: 10% 1%; 
+      grid-template-columns: auto  ;
+   }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 710px){
+  #drum-machine{
+      margin: 1% 1%; 
+      margin: 10% 30%; 
+      grid-template-columns: auto  ;
+   }
+ }
+
+ @media only screen and (min-device-width: 710px) and (max-device-width: 1000px) {
+  #drum-machine{
+      margin: 10% 30%; 
+      grid-template-columns: auto  ;
+   }
+ }
+
+ @media only screen and  (min-device-width: 1000px) {
+  #drum-machine{
+      margin: 10% 30%; 
+      grid-template-columns: auto  auto;
+   }
+ } */
+
+ /* @media only screen and (min-device-width: 1000px) and (max-device-width: 1500px){
+  #drum-machine{
+      margin: 1% 30%; 
+      grid-template-columns: auto  auto;
+   }
+ }
+  */
