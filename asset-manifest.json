@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/freecodecamp-course-react-project/static/css/main.81331345.css",
+    "main.js": "/freecodecamp-course-react-project/static/js/main.81b71259.js",
+    "static/js/787.db9717a9.chunk.js": "/freecodecamp-course-react-project/static/js/787.db9717a9.chunk.js",
+    "static/media/quote.webp": "/freecodecamp-course-react-project/static/media/quote.e7ecb9ce7b89e7c826b9.webp",
+    "static/media/rainbow.gif": "/freecodecamp-course-react-project/static/media/rainbow.44249dcb20e9d77acad5.gif",
+    "static/media/sky1.jpg": "/freecodecamp-course-react-project/static/media/sky1.e75e0db51e4860384400.jpg",
+    "static/media/rocket.gif": "/freecodecamp-course-react-project/static/media/rocket.274b60e5e1e61349cdd1.gif",
+    "static/media/sky2.jpg": "/freecodecamp-course-react-project/static/media/sky2.865857b3e2c51ce9134a.jpg",
+    "static/media/crude.jpeg": "/freecodecamp-course-react-project/static/media/crude.73d1d2b1ee725cdb148c.jpeg",
+    "static/media/rocketnew1.png": "/freecodecamp-course-react-project/static/media/rocketnew1.3818a7a8269aeda365b2.png",
+    "static/media/calculator.webp": "/freecodecamp-course-react-project/static/media/calculator.9461eec34b5b1b9ad783.webp",
+    "index.html": "/freecodecamp-course-react-project/index.html",
+    "main.81331345.css.map": "/freecodecamp-course-react-project/static/css/main.81331345.css.map",
+    "main.81b71259.js.map": "/freecodecamp-course-react-project/static/js/main.81b71259.js.map",
+    "787.db9717a9.chunk.js.map": "/freecodecamp-course-react-project/static/js/787.db9717a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81331345.css",
+    "static/js/main.81b71259.js"
+  ]
+}
