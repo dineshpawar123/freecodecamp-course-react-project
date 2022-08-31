@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://dineshpawar123.github.io/freecodecamp-course-react-project",
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@reduxjs/toolkit": "^1.8.4",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",

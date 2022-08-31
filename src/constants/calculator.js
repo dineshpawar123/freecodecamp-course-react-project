@@ -17,4 +17,3 @@ export const calcData = [
   { id: 'zero', text: '0' },
   { id: 'decimal', text: '.' }
 ]
-// jkjk

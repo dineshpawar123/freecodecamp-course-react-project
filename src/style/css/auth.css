@@ -1,0 +1,42 @@
+.container{
+  width:80%;
+  height:80%;
+  color:green;
+  margin-top:20%
+}
+
+.grid-container-auth {
+  display: grid;
+  grid-template-columns: auto auto ;
+  margin-top: 120px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width:80%;
+  height:10%;
+}
+
+.grid-container-auth-keyboard {
+  display: grid;
+  grid-template-columns: auto auto ;
+  margin-left: 10%;
+  margin-right: 10%;
+  width:80%;
+  height:10%;
+}
+
+.grid-item-auth-keyboard {
+  height:200px;
+  margin-left: 25%
+}
+
+.grid-item-auth {
+  height:300px;
+}
+
+.formcss{
+  background-Color: rgb(25, 28, 37);
+   height: 300px;
+    padding: 25px;
+    border:10px solid rgb(185, 171, 255);
+    border-radius:5%  ;
+}

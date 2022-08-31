@@ -1,0 +1,2 @@
+export const ISUSERLOGIN = 'ISUSERLOGIN';
+export const USEREMAIL = 'USEREMAIL';

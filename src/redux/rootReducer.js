@@ -4,6 +4,7 @@ import calculatorReducer from './Calculator/calculatorReducer';
 import drumReducer from './Drum/drumReducer'
 import { markDownPreviewReducer } from './MarkDownPreview/markDownPreviewReducer';
 import { clockReducer } from './Clock/clockReducer';
+import authReducer from './Auth/authReducer';
 
 const rootReducer = {
     openProject: projectReducer,
@@ -11,7 +12,8 @@ const rootReducer = {
     calculator: calculatorReducer,
     drum: drumReducer,
     markdown: markDownPreviewReducer,
-    clock: clockReducer
+    clock: clockReducer,
+    auth: authReducer
 };
 
 export default rootReducer;

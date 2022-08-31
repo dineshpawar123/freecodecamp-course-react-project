@@ -44,6 +44,7 @@ export const sessionIncrement = (payload) => {
 }
 
 export const secondMinute = (payload) => {
+    console.log({ payload })
     return {
         type: SECONDMINUTE,
         payload
